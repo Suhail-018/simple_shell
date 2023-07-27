@@ -69,7 +69,7 @@ for (i = 0; token != NULL; i++)
 {
 argv[i] = malloc(sizeof(char) * (my_strlen(token) + 1));
 _strcpy(argv[i], token);
-token = my_strtok_dyn(NULL, delim);
+token = strtok(NULL, delim);
 }
 argv[i] = NULL;
 if(_strcmp(argv[0], "exit") == 0)
