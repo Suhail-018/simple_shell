@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "main.h"
+#include "shell.h"
 #include <string.h>
 /**
  * print_environment - Prints the environment variables to stdout

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
+#include "shell.h"
 #include <stdio.h>
 /**
  * mi_strdup - Duplicates a string.

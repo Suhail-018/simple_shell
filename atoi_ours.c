@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "main.h"
+#include "shell.h"
 
 /**
 * my_atoi - Converts a string to an integer
