@@ -44,7 +44,6 @@ if (lineptr[in_read - 1] == '\n')
 {
 lineptr[in_read - 1] = '\0';
 }
-write(STDOUT_FILENO, lineptr, n);
 lineptr_copy = malloc(sizeof(char) * n);
 if (lineptr_copy == NULL)
 {
