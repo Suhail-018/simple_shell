@@ -1,1 +1,1 @@
-# simple_shell, insane hallenging overwhelming project
+my challenging and rwarding shell priject still to be fixed and worked upon

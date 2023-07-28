@@ -8,8 +8,10 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 #include <string.h>
-
+// Function to execute a command using execve
 void execmd(char **argv, char **env);
+
+// Function to get the full path of a command from the PATH environment variable
 char *get_location(char *command);
 void print_environment(char **env);
 char *mi_strdup(const char *str);
@@ -23,5 +25,5 @@ int _strcmp(const char *str, const char *str1);
 char *_strncpy(char *destn, const char *src, size_t n);
 int my_atoi(const char *str);
 
-#endif
+#endif // MAIN_H
 
